@@ -28,7 +28,7 @@
     flex-direction: column;
 
     @include on-desktop {
-      grid-column: 8 / -1;
+      grid-column: 9 / -1;
     }
   }
 
@@ -39,7 +39,7 @@
     margin-bottom: 40px;
 
     @include on-tablet {
-      grid-column: 1 / 8;
+      grid-column: 1 / 7;
       width: 100%;
       height: 520px;
       margin-bottom: 40px;

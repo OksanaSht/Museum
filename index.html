@@ -166,7 +166,7 @@
             </button>
           </a>
           <a
-            href="current_events"
+            href="#current_events"
             class="art_museum__element-events"
           >
             <hr />
@@ -329,7 +329,13 @@
         <div class="subscription__description">
           Бути в курсі всіх актуальних подій та останніх новин.
         </div>
-        <form class="subscription__form">
+        <form
+          onsubmit="
+            this.reset();
+            return false;
+          "
+          class="subscription__form"
+        >
           <input
             name="mail"
             class="subscription__form--input"
